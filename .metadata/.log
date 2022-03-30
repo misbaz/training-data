@@ -1183,3 +1183,15 @@ Binding(COMMAND+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 17:12:59.637
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 17:12:59.638
+!MESSAGE buffering callback sts4.classpath.BtbuGOQg 00AD true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 17:12:59.639
+!MESSAGE executing callback sts4.classpath.BtbuGOQg 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-30 17:12:59.645
+!MESSAGE executing callback sts4.classpath.BtbuGOQg SUCCESS [done]
