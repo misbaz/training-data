@@ -17,8 +17,14 @@ public class demo1 {
 class Worker extends Thread{
 	@Override
 	public void run(){
-		for(int i=0;i<10;i++)
-		System.out.println(Thread.currentThread().toString()+i);
+		for(int i=0;i<10;i++) {
+			try{
+		Thread.sleep(2000);
+			}catch(InterruptedExecption e) {
+				e.printStackTrace();
+			}
+		System.out.println(Thread.currentThread().toString()+1);
 	}
 
+}
 }
